@@ -34,7 +34,7 @@ function initializeGame(){
 
 function cellClick(){
     const cellIndex=this.getAttribute("cellIndex");
-    if(options[cellIndex]!=""||!isRunning){
+    if(options[cellIndex]!=""|| !isRunning){
         return;
     }
 
@@ -95,3 +95,4 @@ function restartGame(){
     cells.forEach(cell=>cell.textContent="");
     isRunning=true;
 }
+
