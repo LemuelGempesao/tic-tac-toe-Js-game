@@ -5,6 +5,14 @@
     color: white;
 }
 
+body{
+    background:linear-gradient(to top, rgb(234,344,34),rgb(23,34,123));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100vh;
+}
 
 .cell{
     width:70px;
@@ -23,7 +31,7 @@
     background:linear-gradient(to bottom, rgb(67, 172, 238), rgb(13, 58, 131));
     padding: 30px;
     max-width: 700px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     border-radius: 10px 20px;
     box-shadow: 0 0  10px 3px black;
     min-width:200px;

@@ -53,6 +53,7 @@ function changePlayer(){
     statusText.textContent=`${currentPlayer}'s turn`;
 
 }
+// console.log(winConditions[0]);
 
 function checkWinner(){
     let roundWon=false;
@@ -71,8 +72,8 @@ function checkWinner(){
             roundWon=true;
             break;
         }
+        
     }
-
     if (roundWon){
         statusText.textContent=`${currentPlayer} Wins🙌`;
         isRunning=false;
@@ -95,4 +96,3 @@ function restartGame(){
     cells.forEach(cell=>cell.textContent="");
     isRunning=true;
 }
-
